@@ -4,7 +4,7 @@ email: training@exegetic.biz
 description: Do you want to learn how to use R to streamline your data analytics? If so, then this course is for you! 
              Does not assume any prior experience with R. Completely suitable for beginners. 
   
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: /intro-data-science-r-cape-town # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -23,6 +23,7 @@ minima:
 
 # Build settings
 theme: minima
+markdown: kramdown
 
 plugins:
  - jekyll-feed
