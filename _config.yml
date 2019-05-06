@@ -1,7 +1,8 @@
 title: Introduction to Data Science
 author: Andrew Collier
 email: training@exegetic.biz
-description: > # this means to ignore newlines until "show_exerpts:"
+description: Do you want to learn how to use R to streamline your data analytics? If so, then this course is for you! 
+             Does not assume any prior experience with R. Completely suitable for beginners. 
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
