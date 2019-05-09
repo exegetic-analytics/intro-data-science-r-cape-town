@@ -15,9 +15,26 @@ nav {
     max-height: 55px;
 }
 
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /* .logo  {
     float: left!important;
 } */
+
+.whenandwhere {
+    background-color: white;
+    border-color: white;
+    padding: 0%;
+}
+
+h2 {
+    color: #212529!important;
+}
 
 p {
     text-align: justify!important;
@@ -57,6 +74,12 @@ td {
     background-color:#ccccccff;
 }
 
+.pricing {
+    background-color: white;
+    border-color: white;
+    padding: 0%;
+}
+
 .register {
  background-color:#343a40;
  border: black;
@@ -88,7 +111,6 @@ td {
         overflow: hidden;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 50%;
 }
 
 .speaker .speaker-photo img {
@@ -96,11 +118,7 @@ td {
         margin: 0 auto;
         height: auto;
         width: 100%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-        border-radius: 50%;
+        border: 2px solid black!important;
 }
 
 .speaker .speaker-social {
