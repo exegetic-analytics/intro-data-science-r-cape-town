@@ -7,12 +7,22 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
   
-  <a href="https://www.exegetic.biz/"><img src="images/exegetic-banner-grad.svg" alt="Exegetic Analytics logo"></a>
-  <h1 style="text-align:center;">Introduction to Data Science with R</h1>
-          <h3>When: 24-28 June 2019</h3>
-          <h3>Where: <a href="https://www.google.com/maps/dir//The+Barn+-+Woodstock+Exchange,+Block+B,+Woodstock+Industrial+Centre,+66-68+Albert+Rd,+Woodstock,+Cape+Town,+7915/@-30.7662416,15.719826,5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1dcc5d995de78aa1:0xa5b8a48b84a35c36!2m2!1d18.4458201!2d-33.9269">Bandwidth Barn, Woodstock, Cape Town</a></h3>
+  <a href="https://www.exegetic.biz/"><img src="images/exegetic-banner-grad.svg" alt="Exegetic Analytics logo" class="banner"></a>
+  <br>
+    <h1 style="text-align:center;">Introduction to Data Science with R</h1>
+    <table style="margin-bottom: 0%;">
+      <tr>
+          <td class="whenandwhere"><h3>When:</h3></td>
+          <td class="whenandwhere" colspan="2"><h3>24-28 June 2019</h3></td>
+      </tr>
+      <tr>
+          <td class="whenandwhere"><h3>Where:</h3></td>
+          <td class="whenandwhere" colspan="2"><h3><a href="https://www.google.com/maps/dir//The+Barn+-+Woodstock+Exchange,+Block+B,+Woodstock+Industrial+Centre,+66-68+Albert+Rd,+Woodstock,+Cape+Town,+7915/@-30.7662416,15.719826,5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1dcc5d995de78aa1:0xa5b8a48b84a35c36!2m2!1d18.4458201!2d-33.9269">Bandwidth Barn, Woodstock, Cape Town</a></h3></td>
+      </tr>
+    </table>
   </div>
-<br>
+
+
   <h2>Condensed course outline</h2>
   <table id="timetable">
       <tr>
@@ -59,6 +69,7 @@ layout: default
       </tr>
     </table>  
   
+
   <h2>Scope and objectives</h2>
   <p>We will open with an <b>Introduction to R</b> establishing the fundamental features of the language. This will serve as a foundation for the rest of the course.</p> 
   <p>Next up: <b>Data Wrangling</b>! Here you'll become more familiar with your new best friend: the <a href="https://www.tidyverse.org/" target="_blank">tidyverse</a>. You'll learn to load data from CSV and XLSX files then how to wrangle those data into submission.</p>
@@ -98,60 +109,85 @@ layout: default
     <h4>We like questions!</h4>
     <p>Having a firm understanding of the course content will result in you being able to confidently apply your new skills thereafter. So, if at any point you're unsure of something, just ask!</p>
    
+
   <h2>Requirements</h2>
   <p>All you'll need is a computer with a browser. We'll be using an online development environment. This means that you can focus on learning as much as possible without having to worry about solving technical problems.</p>
   <p>Of course, we're happy to help you get your local environment set up too! You can start by following <a href="https://www.exegetic.biz/blog/r-setup-general/" target="_blank">these instructions.</a></p>
-  
+
+
+  <h2>Instructors</h2>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="speaker">
+        <div class="speaker-photo">
+          <img style="border:2px solid black!important;" src="images/andrewcollier.jpg"/>
+        </div>
+          <div class="speaker-name">
+            Andrew Collier
+          </div>
+          <div class="speaker-position">
+            Data Scientist / <a href="https://www.exegetic.biz/" target="_blank">Exegetic Analytics</a>
+          </div>
+    
+          <div class="speaker-social" style="text-align:center; font-size: 25px;">
+            <a href="https://twitter.com/datawookie" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/datawookieS" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+          </div>
+      </div>
+    </div>
+
+  <div class="col-sm-6">
+      <div class="speaker">
+        <div class="speaker-photo">
+          <img style="border:2px solid black!important;" src="images/meganbeckett.jpg"/>
+        </div>
+          <div class="speaker-name">
+            Megan Beckett
+          </div>
+          <div class="speaker-position">
+            Data Scientist / <a href="https://www.exegetic.biz/" target="_blank">Exegetic Analytics</a>
+          </div>
+    
+          <div class="speaker-social" style="text-align:center; font-size: 25px;">
+            <a href="https://twitter.com/mbeckett_za" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/MeganBeckett" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+          </div>
+      </div>
+  </div>
+  </div>
+
 
   <h2>Pricing</h2>
-  <p>R 5000 will get you the full week's worth of training. Day passes can also be purchased for R&nbsp;1000 per day.</p> 
-  <p><b>*</b>Seats are limited to ensure quality training and maximum personal attention.</p>
+  <table width: 100% style="margin-bottom: 1%;">
+      <tr>
+          <th class="pricing" width="100px;">Early-Bird</th>
+      </tr>
+      <tr>
+          <td class="pricing">R 4500</td>
+          <td class="pricing" colspan="2">The full week's worth of training.</td>
+      </tr>
+      <tr>
+          <td class="pricing">R 1000</td>
+          <td class="pricing" colspan="2">Per day pass</td>
+      </tr>
+      <tr>
+          <th class="pricing">Standard</th>
+      </tr>
+      <tr>
+          <td class="pricing">R 5400</td>
+          <td class="pricing" colspan="2">The full week's worth of training.</td>
+      </tr>
+      <tr>
+          <td class="pricing">R 1200</td>
+          <td class="pricing" colspan="2">Per day pass</td>
+      </tr>
+  </table>
+  <p style="margin-bottom: 0;">*Early-Bird prices avaliable until 18:00, 2019-06-03. Seats are limited to ensure quality training and maximum personal attention.</p>
+  
+<br>
   <div class="register2">
     <button type="button" class="register">Purchase a ticket</button>
-  </div>   
-<br>
-        <h2>Instructors</h2>
-<br>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="speaker">
-                    <div class="speaker-photo">
-                        <img src="images/andrewcollier.jpg" style="border-radius: 50%;"/>
-                    </div>
-                    <div class="speaker-name">
-                        Andrew Collier
-                    </div>
-                    <div class="speaker-position">
-                        Data Scientist / <a href="https://www.exegetic.biz/" target="_blank">Exegetic Analytics</a>
-                    </div>
-    
-                    <div class="speaker-social" style="text-align:center; font-size: 25px;">
-                        <a href="https://twitter.com/datawookie" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                        <a href="https://github.com/datawookieS" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6">
-                <div class="speaker">
-                    <div class="speaker-photo">
-                        <img src="images/meganbeckett.jpg" style="border-radius: 50%;"/>
-                    </div>
-                    <div class="speaker-name">
-                        Megan Beckett
-                    </div>
-                    <div class="speaker-position">
-                        Data Scientist / <a href="https://www.exegetic.biz/" target="_blank">Exegetic Analytics</a>
-                    </div>
-    
-                    <div class="speaker-social" style="text-align:center; font-size: 25px;">
-                        <a href="https://twitter.com/mbeckett_za" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                        <a href="https://github.com/MeganBeckett" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-<br>
+  </div>
         <h2>Other options</h2>
         <p> If you like the sound of this course but can't attend this iteration please <a href="https://www.exegetic.biz/#contact" target="_blank">contact us</a> so we can work on setting up another one.</p>
         <p> Looking to expand your skillset but this course doesn't meet your needs? We've got something for everyone - visit our <a href="https://www.exegetic.biz/training/" target="_blank">training</a> page.</p>
