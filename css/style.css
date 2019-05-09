@@ -1,19 +1,22 @@
-.site-header {
+/* .site-header {
     background-color: #343a40!important;
-}
+} */
 
-.site-title {
+/* .site-title {
     color: #e8e8e8!important;
     max-height: 6%!important;
     padding-left: 3%!important;
-    /* float: right!important; */
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
-    
-}
+    float: right!important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"  
+} */
 
 .logo  {
     float: left!important;
 }
+  
+  li a:hover {
+    background-color: #111;
+  }
 
 h2 {
     text-align: center!important;
