@@ -99,14 +99,13 @@ td {
     padding: 0%;
 }
 
-.register {
- background-color:#343a40;
- border: black;
- border-radius: 5px;
- color: #e8e8e8;
- padding: 2%;
- display: table;
- margin: 0 auto
+.btn-primary {
+    background-color: #343a40!important;
+    border-color: #343a40!important;
+    color: white!important;
+    padding: 2%!important;
+    display: table!important;
+    margin: 0 auto!important;
 }
 
 .speaker-name {
