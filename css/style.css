@@ -99,7 +99,7 @@ td {
     padding: 0%;
 }
 
-.register {
+/* .register {
  background-color:#343a40;
  border: black;
  border-radius: 5px;
@@ -107,6 +107,15 @@ td {
  padding: 2%;
  display: table;
  margin: 0 auto
+} */
+
+.btn-primary {
+    background-color: #343a40!important;
+    border-color: #343a40!important;
+    color: white!important;
+    padding: 2%!important;
+    display: table!important;
+    margin: 0 auto!important;
 }
 
 .speaker-name {
